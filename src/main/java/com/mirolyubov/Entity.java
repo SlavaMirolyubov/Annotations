@@ -7,7 +7,7 @@ public class Entity {
 
     }
 
-    @Secured(value = 2, string = "")
+    @Secured(value = 2, string = "hello")
     private void method2() {
 
     }
