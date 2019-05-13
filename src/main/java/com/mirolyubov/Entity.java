@@ -8,11 +8,11 @@ public class Entity {
     }
 
     @Secured(value = 2, string = "")
-    @Annotation2
     private void method2() {
 
     }
 
+    @Annotation2
     public void method3() {
 
     }
